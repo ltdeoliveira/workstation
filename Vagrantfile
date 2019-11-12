@@ -21,4 +21,5 @@ Vagrant.configure("2") do |config|
     end
 
     config.vm.provision "shell", path: "xfce.sh"
+    config.vm.provision "shell", path: "setup_vm.sh"
 end
